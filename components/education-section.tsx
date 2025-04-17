@@ -7,39 +7,54 @@ import { useInView } from "framer-motion"
 
 const education = [
   {
-    degree: "Master's of Computer Application (MCA)",
-    institution: "Ranchi University Ranchi",
+    degree: "Master of Business Administration (MBA)",
+    institution: "Ranchi University, Ranchi",
+    period: "Aug 2024 – Sept 2026",
+    grade: "CGPA: 8.36",
+    location: "Ranchi, India",
+  },
+  {
+    degree: "Master of Computer Application (MCA)",
+    institution: "Ranchi University, Ranchi",
     period: "Aug 2020 – Sept 2022",
     grade: "CGPA: 8.36",
     location: "Ranchi, India",
   },
   {
     degree: "Bachelor of Computer Application (BCA)",
-    institution: "Ranchi University Ranchi",
+    institution: "Ranchi University, Ranchi",
     period: "Aug 2017 – Sept 2020",
-    grade: "Per(%): 72.14",
+    grade: "Percentage: 72.14%",
     location: "Ranchi, India",
   },
-]
+  {
+    degree: "Intermediate of Science (I.Sc)",
+    institution: "Dr. SPM Inter College, Sindri",
+    period: "Aug 2015 – June 2017",
+    grade: "Percentage: 60.00%",
+    location: "Sindri, India",
+  },
+];
+
 
 const certifications = [
   {
     title: "Accenture. Software Engineering Virtual Experience",
     issuer: "Accenture",
     link: "#",
-    logo: "/placeholder.svg?height=40&width=40",
+    logo: "/Accenture.png?height=40&width=40",
   },
   {
     title: "Certificate of Excellence in Javascript",
     issuer: "Udemy",
     link: "#",
-    logo: "/placeholder.svg?height=40&width=40",
+    logo: "/udemy.png?height=40&width=40",
   },
   {
     title: "Certificate of Excellence in React",
     issuer: "Udemy",
     link: "#",
-    logo: "/placeholder.svg?height=40&width=40",
+    logo: "/udemy.png?height=40&width=40",
   },
 ]
 

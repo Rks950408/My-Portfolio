@@ -38,27 +38,39 @@ export default function StatsCounter() {
 
   useEffect(() => {
     if (isInView) {
+      const intervals = []
+  
       stats.forEach((stat, index) => {
-        let startValue = 0
-        const endValue = stat.value
+        let current = 0
+        const end = stat.value
         const duration = 2000
-        const increment = Math.floor(duration / endValue)
-
-        const timer = setInterval(() => {
-          startValue += 1
-          const newCounts = [...counts]
-          newCounts[index] = startValue
-          setCounts(newCounts)
-
-          if (startValue === endValue) {
-            clearInterval(timer)
+        const incrementTime = Math.floor(duration / end)
+  
+        const intervalId = setInterval(() => {
+          current += 1
+  
+          setCounts(prev => {
+            const updated = [...prev]
+            updated[index] = current
+            return updated
+          })
+  
+          if (current >= end) {
+            clearInterval(intervalId)
           }
-        }, increment)
-
-        return () => clearInterval(timer)
+        }, incrementTime)
+  
+        intervals.push(intervalId)
       })
+  
+      return () => {
+        intervals.forEach(id => {
+          if (id) clearInterval(id)
+        })
+      }
     }
   }, [isInView])
+  
 
   return (
     <section className="py-16 bg-zinc-900/50 backdrop-blur-sm border-y border-zinc-800">

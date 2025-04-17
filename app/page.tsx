@@ -88,7 +88,7 @@ export default function Home() {
               <Github size={20} />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/rahul-sahu-25163b233/"
+              href="https://www.linkedin.com/in/rahul-kumar-sahu-25163b233/"
               target="_blank"
               className="text-zinc-400 hover:text-emerald-400 transition-colors"
               aria-label="LinkedIn"

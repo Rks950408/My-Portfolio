@@ -27,22 +27,22 @@ const projects = [
     title: "Public Transport System",
     description:
       "Online ticketing system with Bluetooth printer integration for 70+ buses for Ranchi Municipal Corporation.",
-    image: "/placeholder.svg?height=300&width=500",
-    link: "#",
+    image: "/PTMS.png?height=300&width=500",
+    link: "https://egov.rsccl.in/citizen",
     techStack: ["Node.js", "Express", "React", "Next.js", "PostgreSQL"],
   },
   {
     title: "Parking Management System",
     description: "System with secure payments, real-time lot updates, and pass expiration notifications.",
-    image: "/placeholder.svg?height=300&width=500",
-    link: "#",
+    image: "/PTMS.png?height=300&width=500",
+    link: "https://egov.rsccl.in/citizen",
     techStack: ["Node.js", "Express", "React", "Next.js", "PostgreSQL"],
   },
   {
     title: "Land Assets Management System",
     description: "System to store and manage Land Assets of Ranchi Municipal with real-time updates and notifications.",
-    image: "/placeholder.svg?height=300&width=500",
-    link: "#",
+    image: "/Landandasset.png?height=300&width=500",
+    link: "https://egov.rsccl.in/citizen",
     techStack: ["Node.js", "Express", "React", "Next.js", "PostgreSQL"],
   },
   {
