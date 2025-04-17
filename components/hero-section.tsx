@@ -147,7 +147,7 @@ export default function HeroSection() {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-500 to-teal-300 rounded-full blur opacity-75 animate-pulse"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-zinc-800">
                 <img
-                  src="/placeholder.svg?height=320&width=320"
+                  src="/Rahul.jpeg?height=320&width=320"
                   alt="Rahul Kumar"
                   className="w-full h-full object-cover"
                 />

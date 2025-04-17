@@ -11,16 +11,16 @@ const projects = [
     title: "Tree Cutting & Town Planning Management",
     description:
       "Web application for Nanded Waghala City Municipal Corporation with real-time updates, notifications, and officer approvals.",
-    image: "/placeholder.svg?height=300&width=500",
-    link: "#",
+    image: "/image.png?height=300&width=500",
+    link: "https://nwcmc.gov.in/web/home.php?uid=1&id=MAR#gsc.tab=0",
     techStack: ["Python", "Django", "React", "PostgreSQL"],
   },
   {
     title: "E-Legal Metrology System",
     description:
       "Web application for Jharkhand Legal Metrology enabling seamless access and level-wise officer approvals.",
-    image: "/placeholder.svg?height=300&width=500",
-    link: "#",
+    image: "/e-Jhar-legal.png?height=300&width=500",
+    link: "http://10.10.1.13/",
     techStack: ["Python", "Django", "React", "PostgreSQL"],
   },
   {
