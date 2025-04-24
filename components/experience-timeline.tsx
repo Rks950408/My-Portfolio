@@ -20,7 +20,7 @@ const experiences = [
   {
     title: "Fullstack Developer",
     company: "Aadrika Enterprises Pvt. Ltd",
-    period: "Feb 24 – Oct 2024",
+    period: "Feb 22 – Oct 2024",
     description: [
       "Developed Android & web apps for Ranchi Municipal Corporation's Public Transport and Parking Management Systems and Land assets Management System.",
       "Public Transport System: Online ticketing with Bluetooth printer integration for 70+ buses.",
@@ -32,14 +32,14 @@ const experiences = [
   {
     title: "Paid Internship: Frontend Developer",
     company: "BMP-Infotech Pvt. Ltd (Remote)",
-    period: "Sept 23 – Feb 24",
+    period: "Sept 21 – Feb 22",
     description: ["Developed an e-commerce website with vendor support and online payment capabilities."],
     techStack: "ReactJS, Redux, JavaScript, Typescript.",
   },
   {
     title: "Internship: React Developer",
     company: "B12M2 Technologies Pvt. Ltd",
-    period: "Jan 23 – Sept 23",
+    period: "Aug 21 – Sept 21",
     description: ["Developed a React and React Native AI-powered Betting Application."],
     techStack: "React, React Native, Firebase, SQLite, Node JS, Firebase functions, Typescript.",
   },
