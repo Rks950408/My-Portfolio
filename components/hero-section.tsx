@@ -7,7 +7,10 @@ import { TypeAnimation } from "react-type-animation"
 
 export default function HeroSection() {
   return (
-    <section id="about" className="min-h-screen flex items-center py-20 overflow-hidden">
+    <section
+      id="about"
+      className="min-h-screen flex items-center py-20 overflow-hidden"
+    >
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <motion.div
@@ -16,7 +19,11 @@ export default function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3, duration: 0.8 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+            >
               <h2 className="text-6xl font-bold mb-6 leading-tight">
                 <span className="block">Hi, I'm Rahul</span>
                 <TypeAnimation
@@ -44,8 +51,10 @@ export default function HeroSection() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              A passionate Full Stack Developer with expertise in React, Node.js, and Django. I specialize in creating
-              responsive web applications and solving complex problems with clean, efficient code.
+              A passionate Full Stack Developer with expertise in React,
+              Node.js, and Django. I specialize in creating responsive web
+              applications and solving complex problems with clean, efficient
+              code.
             </motion.p>
 
             <motion.div
@@ -54,7 +63,10 @@ export default function HeroSection() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7, duration: 0.8 }}
             >
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
                 <Link
                   href="#contact"
                   className="flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-400 hover:from-emerald-600 hover:to-teal-500 text-white px-6 py-3 rounded-full transition-all shadow-lg hover:shadow-emerald-500/20"
@@ -63,7 +75,10 @@ export default function HeroSection() {
                 </Link>
               </motion.div>
 
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
                 <Link
                   href="#"
                   className="flex items-center gap-2 bg-transparent border border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 px-6 py-3 rounded-full transition-all"
@@ -147,7 +162,7 @@ export default function HeroSection() {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-500 to-teal-300 rounded-full blur opacity-75 animate-pulse"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-zinc-800">
                 <img
-                  src="/Rahul.jpeg?height=320&width=320"
+                  src="/Rahul.jpg?height=320&width=320"
                   alt="Rahul Kumar"
                   className="w-full h-full object-cover"
                 />
@@ -159,12 +174,14 @@ export default function HeroSection() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1, duration: 0.5 }}
               >
-                <p className="font-bold text-emerald-400">3+ Years Experience</p>
+                <p className="font-bold text-emerald-400">
+                  3+ Years Experience
+                </p>
               </motion.div>
             </div>
           </motion.div>
         </div>
       </div>
     </section>
-  )
+  );
 }
